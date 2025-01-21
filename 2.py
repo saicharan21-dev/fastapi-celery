@@ -1,4 +1,3 @@
 import requests
 
-response = requests.get("http://127.0.0.1:8000/test_data")
-print(response.json())
+print(requests.get("http://127.0.0.1:8000/test_data").json())
