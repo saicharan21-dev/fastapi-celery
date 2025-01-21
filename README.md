@@ -12,6 +12,8 @@ This project demonstrates how to integrate FastAPI, Celery, and Redis to build a
 
 ### 1. Install Dependencies:
 ### 2. To run Fast API App: uvicorn 1:app --reload
+### 3. Start redis server. Command: (redis-server)
+### 4. Start Celery Worker. Command: (celery -A 1.celery worker --loglevel=info)
 
 ## Note: Here I used a dummy API key for security purposes.
 
