@@ -11,6 +11,10 @@ This project demonstrates how to integrate FastAPI, Celery, and Redis to build a
 ## Setup Instructions:
 
 ### 1. Install Dependencies:
+### 2. To run Fast API App: uvicorn 1:app --reload
+
+## Note: Here I used a dummy API key for security purposes.
+
 Make sure you have Python 3.7 or higher installed. Then, install the dependencies using pip:
 
 ```bash
