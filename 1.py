@@ -225,7 +225,7 @@ async def get_reviews(category_id: int, page: int = 1):
         for review in reviews:
             if not review.tone or not review.sentiment:
                 response = openai.Completion.create(
-                    engine="Any Engine",
+                    engine="text-davinci-003",
                     prompt=f"Classify the tone and sentiment of this review: \"{review.text}\" with stars {review.stars}.",
                     max_tokens=50,
                 )
